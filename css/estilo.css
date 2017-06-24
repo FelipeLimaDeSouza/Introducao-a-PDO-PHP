@@ -1,0 +1,121 @@
+*{
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family: tahoma;
+    background-color: #fff;
+}
+
+.container{
+
+    margin: 0 auto;
+    width: auto;
+    height: 800px;
+}
+
+.sombra{
+
+    box-shadow: 0 0 3em #000;
+}
+
+.sombra_menu{
+
+    box-shadow: 1px 3px 20px #000;
+}
+
+.topo{
+
+    position: relative;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+
+}
+
+.menu{
+
+    position: relative;
+    width: 100%;
+    height: 40px;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ccc;
+    padding: 5px 5px 5px 20px;
+    line-height: 2em;
+    word-spacing: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+
+}
+
+a:hover{
+
+    color: #0c3df2;
+    text-shadow: 1px 1px #000;
+
+}
+
+.content_titulo{
+
+    margin: 0 auto;
+    width: 750px;
+    height: 50px;
+    background-color: #abaaaa;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    border-top: 5px solid #07269c;
+
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 5px 5px 20px;
+    line-height: 2em;
+    color: #fff;
+
+}
+
+.content{
+
+    margin: 0 auto;
+    width: 750px;
+    height: 450px;
+    background-color: #ccc;
+    margin-bottom: 40px;
+    border: 1px solid #07269c;
+    padding: 10px;
+
+}
+
+.dados{
+
+  position: relative;
+  float: left;
+  width: 150px;
+  margin: 10px 20px;
+  text-align: center;
+}
+
+.form_login{
+
+    width: 210px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    border: 1px solid #000;
+
+}
+
+.clear{
+  clear: both;
+}
